@@ -1,6 +1,7 @@
 import boto3
 import sys
 
+
 try:
     def main():
         create_s3bucket(bucket_name)
