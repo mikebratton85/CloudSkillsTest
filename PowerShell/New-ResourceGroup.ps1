@@ -1,5 +1,5 @@
 function New-ResourceGroup {
-    [cmdletbinding()]
+    [cmdletbinding(SupportsShouldProcess)]
 
     param (
         [parameter(Mandatory)]
@@ -14,5 +14,7 @@ function New-ResourceGroup {
         'Location' = $location
     }
 
-    New-AZResourceGroup @params
+    if ($PSCmdlet.ShouldProcess('location')){
+        New-AZResourceGroup @params
+    }
 }
