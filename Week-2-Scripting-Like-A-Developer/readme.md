@@ -3,19 +3,19 @@
 The code found in this repository is to help you learn how to script like a Developer.
 
 ## WIP
-The code found in 'Week-2-Scripting-Like-a-Developer' is currently a Work In Progress (WIP) and the readme will be updated when ready
+The code found in `Week-2-Scripting-Like-a-Developer` is currently a Work In Progress (WIP) and the readme will be updated when ready
 
 ## PowerShell Code
-The PowerShell code found in 'Week-2-Scripting-Like-a-Developer' is for anyone that wants to create a Resource Group in Azure
+The PowerShell code found in `Week-2-Scripting-Like-a-Developer` is for anyone that wants to create a Resource Group in Azure
 
 ## How to Use The PowerShell Code
-The 'New-ResourceGroup' function is found under the 'PowerShell' directory and can be used as a reusable function. A user has the ability to pass in parameters at runtime to ensure they can re-use the script at any point for any environment.
+The `New-ResourceGroup` function is found under the `PowerShell` directory and can be used as a reusable function. A user has the ability to pass in parameters at runtime to ensure they can re-use the script at any point for any environment.
 
 ## Python Code
-The Python code found in 'Week-2-Scripting-Like-a-Developer' is for anyone that wants to create an S3 bucket in AWS
+The Python code found in `Week-2-Scripting-Like-a-Developer` is for anyone that wants to create an S3 bucket in AWS
 
 ## How to Use The Python Code
-The 's3bucket.py' script is designed to be re-used at any point for any environment. There are no hard-coded values.
+The `s3bucket.py` script is designed to be re-used at any point for any environment. There are no hard-coded values.
 
 ## Examples
 
@@ -78,7 +78,7 @@ python s3bucket.py 'cloudskillss3bucket'
 ## Testing
 Both the PowerShell and Python code have unit tests available to ensure that the desired outcomes, including values and types, are accurate.
 
-The tests can be found in the 'PowerShell' and 'Python' directories.
+The tests can be found in the `PowerShell` and `Python` directories.
 
 ## Contributers
 1. Michael Levan
